@@ -1,0 +1,72 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context="dk.kultur.historiejagtenfyn.ui.activities.WelcomeActivity"
+    android:id="@+id/container"
+    android:paddingTop="40dp"
+    android:paddingLeft="@dimen/bg_left_margin"
+    android:paddingRight="@dimen/bg_right_margin"
+    android:paddingBottom="0dp"
+    >
+
+    <!-- The primary full-screen view. This can be replaced with whatever view
+         is needed to present your content, e.g. VideoView, SurfaceView,
+         TextureView, etc. -->
+    <TextView android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:keepScreenOn="true"
+        android:gravity="center"
+        style="@style/Text.Title"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_below="@id/title"
+        android:layout_above="@+id/image"
+        android:keepScreenOn="true"
+        android:overScrollMode="never"
+        android:scrollbarStyle="outsideOverlay"
+        >
+
+        <TextView android:id="@+id/info"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:keepScreenOn="true"
+            style="@style/Text.Regular"
+            android:paddingRight="8dp"/>
+        </ScrollView>
+
+
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/btnContinue"
+        android:layout_marginBottom="@dimen/welcome_image_bottom_margin"
+        android:src="@drawable/shield"
+        android:keepScreenOn="true"
+        android:layout_centerHorizontal="true"
+
+        />
+
+    <TextView
+        android:id="@+id/btnContinue"
+        android:layout_width="wrap_content"
+        android:layout_height="64dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:text="@string/info_continue"
+        android:textStyle="bold"
+        android:gravity="center"
+        style="@style/Button.Regular"
+        android:background="@drawable/button_main1"
+        android:keepScreenOn="true"
+        android:soundEffectsEnabled="false"
+        />
+
+
+</RelativeLayout>

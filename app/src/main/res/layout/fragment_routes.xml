@@ -1,0 +1,60 @@
+<RelativeLayout
+    android:id="@+id/container"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+
+    android:paddingTop="@dimen/bg_top_margin"
+    android:paddingLeft="@dimen/bg_left_margin"
+    android:paddingRight="@dimen/bg_right_margin_route"
+    android:paddingBottom="0dp">
+
+
+
+    <dk.kultur.historiejagtenfyn.ui.Views.TabbView
+        android:id="@+id/tabbar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="false"
+        android:layout_alignParentRight="false"
+        android:layout_centerHorizontal="true"
+        android:adjustViewBounds="true"/>
+
+    <LinearLayout
+        android:id="@+id/headerLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:orientation="vertical">
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="12dp"/>
+
+        <TextView
+            android:id="@+id/headerText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:text="@string/route_list_header"
+            android:textColor="@color/routes_text_color"
+            android:textSize="26sp"/>
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="12dp"/>
+
+    </LinearLayout>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recycler_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/tabbar"
+        android:layout_below="@+id/headerLayout"
+        android:clipToPadding="false"
+        android:overScrollMode="never"/>
+</RelativeLayout>

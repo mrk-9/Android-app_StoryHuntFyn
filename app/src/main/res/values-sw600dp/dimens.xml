@@ -1,0 +1,28 @@
+<resources>
+
+    <dimen name="tabbar_width">504px</dimen>
+    <dimen name="tabbar_height">158px</dimen>
+
+    <dimen name="side_tab_width2">134px</dimen>
+    <dimen name="side_tab_height2">216px</dimen>
+    <dimen name="side_tab_width3">134px</dimen>
+    <dimen name="side_tab_height3">314px</dimen>
+
+    <dimen name="bg_horizontal_margin">66px</dimen>
+    <dimen name="bg_vertical_margin">43px</dimen>
+
+    <dimen name="bg_left_margin">40dp</dimen>
+    <dimen name="bg_right_margin">80dp</dimen>
+    <dimen name="bg_top_margin">40dp</dimen>
+
+    <dimen name="bg_right_margin_route">72dp</dimen>
+
+    <dimen name="dialog_popup_width">462px</dimen>
+    <dimen name="dialog_popup_height">580px</dimen>
+    <dimen name="dialog_popup_frame_height">530px</dimen>
+    <dimen name="dialog_popup_button_width">204px</dimen>
+    <dimen name="dialog_popup_button_height">120px</dimen>
+    <dimen name="location_top_margin">-15dp</dimen>
+
+
+</resources>

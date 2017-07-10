@@ -1,0 +1,13 @@
+<resources>
+    <color name="black_overlay">#66000000</color>
+    <color name="text_color">#2E2E2E</color>
+    <color name="routes_text_color">#333333</color>
+    <color name="listview_divider_line">#C0C0C0</color>
+    <color name="route_listview_divider_line">#B4B4B4</color>
+    <color name="route_color">#8A453E</color>
+    <color name="progress_border_color">#66a9a9a9</color>
+
+
+
+
+</resources>

@@ -1,0 +1,12 @@
+<TextView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/header_text"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp"
+    android:textAppearance="?android:attr/textAppearanceMedium"
+    android:textColor="@color/wallet_secondary_text_holo_dark"
+    android:background="@android:drawable/alert_light_frame"
+    android:padding="8dp"
+    tools:text="0"/>

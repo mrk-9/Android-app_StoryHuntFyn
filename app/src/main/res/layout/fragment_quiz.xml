@@ -1,0 +1,63 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background">
+
+    <dk.kultur.historiejagtenfyn.ui.Views.SideTabView
+        android:id="@+id/sideTabView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="100dp"
+        android:adjustViewBounds="true" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingBottom="0dp"
+        android:paddingLeft="@dimen/bg_left_margin"
+        android:paddingRight="@dimen/bg_right_margin"
+        android:paddingTop="40dp"
+        android:background="@drawable/page_texture_opaque">
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            style="@style/Text.Title"
+            android:text="@string/quiz_header"
+            android:layout_marginBottom="10dp" />
+
+
+        <ListView
+            android:id="@+id/quiz_list"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/title"
+            android:layout_above="@+id/btnBack"
+            android:keepScreenOn="true"
+            android:dividerHeight="1px"
+            android:divider="@color/listview_divider_line"
+            android:headerDividersEnabled="true"
+            android:scrollbarStyle="outsideOverlay"
+            android:overScrollMode="never"
+            android:paddingRight="10dp" />
+
+
+        <TextView
+            android:id="@+id/btnBack"
+            style="@style/Button.Regular"
+            android:layout_width="wrap_content"
+            android:layout_height="64dp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/button_main1"
+            android:gravity="center"
+            android:keepScreenOn="true"
+            android:text="@string/settings_back"
+            android:textStyle="bold" />
+    </RelativeLayout>
+
+</RelativeLayout>

@@ -1,0 +1,19 @@
+<resources>
+
+    <dimen name="tabbar_width">704px</dimen>
+    <dimen name="tabbar_height">238px</dimen>
+
+    <dimen name="side_tab_width2">246px</dimen>
+    <dimen name="side_tab_height2">352px</dimen>
+    <dimen name="side_tab_width3">246px</dimen>
+    <dimen name="side_tab_height3">498px</dimen>
+
+    <dimen name="bg_horizontal_margin">122px</dimen>
+    <dimen name="bg_vertical_margin">60px</dimen>
+
+    <dimen name="bg_left_margin">40dp</dimen>
+    <dimen name="bg_right_margin">80dp</dimen>
+    <dimen name="bg_top_margin">40dp</dimen>
+
+    <dimen name="bg_right_margin_route">64dp</dimen>
+</resources>

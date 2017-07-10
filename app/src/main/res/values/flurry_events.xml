@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="flurry_welcome_fragment" translatable="false">Welcome view</string>
+    <string name="flurry_route_list_fragment" translatable="false">Route list view</string>
+    <string name="flurry_route_fragment" translatable="false">Route details view</string>
+    <string name="flurry_property_route_name" translatable="false">Route name</string>
+    <string name="flurry_map_fragment" translatable="false">Map view</string>
+    <string name="flurry_map_settings" translatable="false">Map settings view</string>
+    <string name="flurry_my_location_click" translatable="false">Location button click</string>
+    <string name="flurry_poi_content_fragment" translatable="false">POI content view</string>
+    <string name="flurry_poi_practical_info_fragment" translatable="false">POI practical info view</string>
+    <string name="flurry_poi_quiz_fragment" translatable="false">POI quiz fragment</string>
+    <string name="flurry_property_poi" translatable="false">Point of interest</string>
+    <string name="flurry_ar_view_fragment" translatable="false">AR view</string>
+    <string name="flurry_scan_fragment" translatable="false">Scan view</string>
+    <string name="flurry_scan_found_popup" translatable="false">Scanner match found</string>
+
+</resources>

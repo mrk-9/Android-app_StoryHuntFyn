@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="android:Theme.Holo.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+    </style>
+
+    <style name="FullscreenTheme" parent="android:Theme.Holo.NoActionBar">
+        <item name="android:windowActionBarOverlay">true</item>
+        <item name="android:windowBackground">@null</item>
+        <item name="metaButtonBarStyle">?android:attr/buttonBarStyle</item>
+        <item name="metaButtonBarButtonStyle">?android:attr/buttonBarButtonStyle</item>
+    </style>
+
+    <style name="ButtonBar">
+        <item name="android:paddingLeft">2dp</item>
+        <item name="android:paddingTop">5dp</item>
+        <item name="android:paddingRight">2dp</item>
+        <item name="android:paddingBottom">0dp</item>
+        <item name="android:background">@android:drawable/bottom_bar</item>
+    </style>
+
+    <style name="ButtonBarButton" />
+
+    <style name="Text.Title" parent="@android:style/Widget.TextView">
+        <item name="android:textSize">27dp</item>
+        <item name="android:textColor">@color/text_color</item>
+    </style>
+    <style name="Text.RouteList.Title" parent="@android:style/Widget.TextView">
+        <item name="android:textSize">23dp</item>
+        <item name="android:textColor">@color/text_color</item>
+    </style>
+    <style name="Text.Regular" parent="@android:style/Widget.TextView">
+        <item name="android:textSize">18dp</item>
+        <item name="android:textColor">@color/text_color</item>
+    </style>
+    <style name="Text.Small" parent="@android:style/Widget.TextView">
+        <item name="android:textSize">15dp</item>
+        <item name="android:lineSpacingExtra">18dp</item>
+        <item name="android:textColor">@color/text_color</item>
+    </style>
+
+    <style name="TextAppearance.Button" parent="@android:style/TextAppearance">
+        <item name="android:textColor">@color/text_color</item>
+        <item name="android:textSize">19dp</item>
+    </style>
+
+    <style name="Button.Regular" parent="@android:style/Widget.TextView">
+        <item name="android:textAppearance">@style/TextAppearance.Button</item>
+        <item name="android:paddingTop">10dp</item>
+    </style>
+    <style name="Text.Popup.Title" parent="@android:style/Widget.TextView">
+        <item name="android:textSize">22dp</item>
+        <item name="android:textColor">@color/text_color</item>
+    </style>
+    <style name="Button.Popup" parent="@android:style/Widget.TextView">
+        <item name="android:paddingTop">10dp</item>
+        <item name="android:textAppearance">@style/TextAppearance.Popup.Button</item>
+    </style>
+    <style name="TextAppearance.Popup.Button" parent="@android:style/TextAppearance">
+        <item name="android:textColor">@color/text_color</item>
+        <item name="android:textSize">16dp</item>
+    </style>
+
+</resources>

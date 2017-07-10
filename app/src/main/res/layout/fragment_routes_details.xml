@@ -1,0 +1,110 @@
+<RelativeLayout
+    android:id="@+id/container"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:paddingLeft="@dimen/bg_left_margin"
+    android:paddingRight="@dimen/bg_right_margin"
+    android:paddingTop="@dimen/bg_top_margin">
+
+    <LinearLayout
+        android:id="@+id/headerLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:orientation="vertical">
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="12dp"/>
+
+        <TextView
+            android:id="@+id/headerText"
+            style="@style/Text.Title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            tools:text="Header"/>
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="24dp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/contentLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_below="@+id/headerLayout"
+        android:layout_above="@+id/buttons_ll">
+
+        <WebView
+            android:id="@+id/routeWebDetails"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="50"
+            android:paddingLeft="@dimen/route_view_small_padding"
+            android:paddingRight="@dimen/route_view_mid_padding"
+            android:scrollbarStyle="outsideOverlay"
+            android:background="@android:color/transparent"
+            android:overScrollMode="never"/>
+
+        <ImageView
+            android:id="@+id/routeAvatar"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="50"
+            android:layout_marginTop="8dp"
+            android:layout_gravity="center_horizontal"
+            android:adjustViewBounds="true"
+            />
+
+    </LinearLayout>
+
+
+
+    <RelativeLayout
+        android:id="@+id/buttons_ll"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:orientation="horizontal">
+
+        <Space
+            android:id="@+id/centerPoint"
+            android:layout_width="24dp"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"/>
+
+        <TextView
+            android:id="@+id/txViewBack"
+            style="@style/Button.Regular"
+            android:layout_width="wrap_content"
+            android:layout_height="64dp"
+            android:layout_toLeftOf="@+id/centerPoint"
+            android:background="@drawable/button_main1"
+            android:gravity="center"
+            android:paddingTop="8dp"
+            android:text="@string/settings_back"/>
+
+        <TextView
+            android:id="@+id/txViewSeeMore"
+            style="@style/Button.Regular"
+            android:layout_width="wrap_content"
+            android:layout_height="64dp"
+            android:layout_toRightOf="@+id/centerPoint"
+            android:background="@drawable/button_main2"
+            android:gravity="center"
+            android:paddingTop="8dp"
+            android:text="@string/route_detail_map"/>
+    </RelativeLayout>
+
+
+
+
+</RelativeLayout>

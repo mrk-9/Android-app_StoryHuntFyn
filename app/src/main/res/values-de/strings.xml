@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Geschichtesuche Fünen</string>
+
+    <!-- Map settings -->
+    <string name="settings_title">Karteneinstellung</string>
+    <string name="settings_description">Hier können sie die Einstellungen für die Karte und die Anwendung der Karte ändern.</string>
+    <string name="settings_show_route">Route auf der Karte zeigen</string>
+    <string name="settings_play_sounds">Geräusche automatisch abspielen</string>
+    <string name="settings_standard_route_description">Welche Routen wollen Sie als Standard zur Karte hinzufügen?</string>
+    <string name="settings_back">Zurück</string>
+
+
+    <!--Splash screen-->
+    <string name="no_internet_connection">Keine Internetverbindung.</string>
+    <string name="some_features_will_not_work.">Die Daten sind möglicherweise nicht aktualisiert und einzelne Funktionen funktionieren nicht.</string>
+    <string name="updating_routes">Die Routen werden aktualisiert.</string>
+    <string name="updating_locations">Die Positionen werden aktualisiert.</string>
+    <string name="fetching_formatted">Geladen %1$d von %2$d</string>
+    <string name="fetching_data">Henter data</string>
+
+    <!-- Info -->
+    <string name="info_continue">Weiter</string>
+
+    <!-- Route -->
+    <string name="route_list_header">Routenübersicht</string>
+
+    <!-- Route Detail -->
+    <string name="route_detail_map">Karte</string>
+
+    <!-- Popup POI, Scan -->
+    <string name="popup_more">Entdecke mehr</string>
+    <string name="popup_ok">O.K.</string>
+
+    <!-- Scan fragment -->
+    <string name="scan_title">Scanne das Bild</string>
+
+    <!-- ar fragment -->
+    <string name="ar_view_title">AR View</string>
+
+    <!-- Quiz header -->
+    <string name="quiz_header">Quiz - Testen Sie sich selbst.</string>
+
+    <!-- Practical info -->
+    <string name="practical_info_header">Praktische Informationen</string>
+
+    <!-- Messages -->
+    <string name="message_too_far_from_poi">Besuchen Sie die Position um die Geschichte zu fangen und zu erleben.</string>
+
+    <string name="data_being_loaded">Die Seite wird geladen.</string>
+
+    <!-- Geofence Error strings -->
+    <string name="no_gps_signal">Das GPS-Signal ist nicht zugänglich.</string>
+
+    <string name="preparing_assets">Wird Geladen…</string>
+    <string name="error">Fehler</string>
+    <string name="download_failed">Geschichtesuche Fünen konnte nicht die Daten aktualisieren. Versuchen Sie es erneut!</string>
+    <string name="close">Zu Schließen</string>
+    <string name="downloading_assets">Bitte warten… Weitere Daten müssen heruntergeladen werden.</string>
+
+    <!-- location messages -->
+    <string name="please_enable_location">Bitte aktivieren Sie Ortungsdienste auf diesem Gerät.</string>
+    <string name="not_now">Jetzt nicht</string>
+    <string name="enable">Aktivieren...</string>
+
+    <string name="error_unknown">Allgemeiner Fehler. Bitte erneut versuchen.</string>
+</resources>
+

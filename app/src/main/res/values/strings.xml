@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Historiejagt Fyn</string>
+
+    <!-- Map settings -->
+    <string name="settings_title">Kortindstillinger</string>
+    <string name="settings_description">Her kan du ændre indstillinger vedrørende kort og brugen af dette.</string>
+    <string name="settings_show_route">Vis rute på kortet</string>
+    <string name="settings_play_sounds">Afspil automatisk lyd og musik</string>
+    <string name="settings_standard_route_description">Hvilke ruter vil du tilføje som standard på kortet?</string>
+    <string name="settings_back">Tilbage</string>
+    <string name="pleaseWait">Please wait</string>
+
+
+    <!--Splash screen-->
+    <string name="no_internet_connection">Ingen internetforbindelse</string>
+    <string name="some_features_will_not_work.">Data er evt. ikke opdaterede og enkelte funktioner vil ikke virke.</string>
+    <string name="updating_routes">Opdaterer ruter</string>
+    <string name="updating_locations">Opdaterer lokationer</string>
+    <string name="fetching_formatted">Henter %1$d af %2$d</string>
+    <string name="fetching_data">Henter data</string>
+
+    <!-- Info -->
+    <string name="info_continue">Videre</string>
+
+    <!-- Route -->
+    <string name="route_list_header">Ruteoversigt</string>
+
+    <!-- Route Detail -->
+    <string name="route_detail_map">Se på kort</string>
+
+    <!-- Popup POI, Scan -->
+    <string name="popup_more">Se mere</string>
+    <string name="popup_ok">Okay</string>
+
+    <!-- Scan fragment -->
+    <string name="scan_title">Scan billedet</string>
+
+    <!-- ar fragment -->
+    <string name="ar_view_title">AR View</string>
+
+    <!-- Quiz header -->
+    <string name="quiz_header">Quiz - test dig selv</string>
+
+    <!-- Practical info -->
+    <string name="practical_info_header">Praktisk information</string>
+
+    <!-- Messages -->
+    <string name="message_too_far_from_poi">Besøg stedet, for at fange og opleve denne historie.</string>
+
+    <string name="data_being_loaded">Henter data</string>
+
+    <!-- SyncAdapter related -->
+    <string name="sync_account_type" translatable="false">historiejagtenfyn.kultur.dk</string>
+    <string name="content_authority" translatable="false">dk.kultur.historiejagtenfyn.provider</string>
+
+    <string name="pref_active_language" translatable="false">"key.active_language"</string>
+    <string name="pref_language_default" translatable="false">""</string>
+
+    <string name="pref_data_synced" translatable="false">"key.active_sync_done"</string>
+
+    <!-- Geofence Error strings -->
+    <string name="not_connected" translatable="false">GoogleApiClient no yet connected. Try again.</string>
+    <string name="geofence_not_available" translatable="false">Geofence service is not available now</string>
+    <string name="geofence_too_many_geofences" translatable="false">Your app has registered too many geofences</string>
+    <string name="geofence_too_many_pending_intents" translatable="false">
+        You have provided too many PendingIntents to the addGeofences() call
+    </string>
+    <string name="unknown_geofence_error" translatable="false">
+        Unknown error: the Geofence service is not available now
+    </string>
+    <string name="no_gps_signal">GPS signal ikke tilgængeligt!</string>
+    <string name="preparing_assets">Indlæser…</string>
+    <string name="error">Fejl</string>
+    <string name="download_failed">Historiejagt Fyn fejlede opdatering af data. Prøv igen!</string>
+    <string name="close">Luk</string>
+    <string name="downloading_assets">Vent venligst… Yderligere data skal hentes ned.</string>
+
+    <!-- location messages -->
+    <string name="please_enable_location">Venligst slå lokationsservice til på denne enhed.</string>
+    <string name="not_now">kke nu</string>
+    <string name="enable">Slå til...</string>
+
+    <!--Translation needed-->
+    <string name="updating_language" translatable="false">Opdaterer indstillinger</string>
+    <string name="updating_info" translatable="false">Opdaterer indstillinger</string>
+    <string name="updating_avatars" translatable="false">Opdaterer grafik</string>
+    <string name="updating_poi_connections" translatable="false">Opdaterer forbindelser</string>
+    <string name="updating_route_points" translatable="false">Opdaterer point</string>
+    <!---->
+
+    <string name="error_unknown">Generel fejl. Prøv venligst igen.</string>
+
+</resources>
+

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Story Hunt Funen</string>
+
+    <!-- Map settings -->
+    <string name="settings_title">Map settings</string>
+    <string name="settings_description">Change settings for the map and it use.</string>
+    <string name="settings_show_route">Show route on map</string>
+    <string name="settings_play_sounds">Play sounds automatically</string>
+    <string name="settings_standard_route_description">What routes would you like to add as default on the map?</string>
+    <string name="settings_back">Back</string>
+
+
+    <!--Splash screen-->
+    <string name="no_internet_connection">No internet connection</string>
+    <string name="some_features_will_not_work.">Data might not be updated fully and some function might not work.</string>
+    <string name="updating_routes">Updating routes</string>
+    <string name="updating_locations">Updating locations</string>
+    <string name="fetching_formatted">Loading %1$d out of %2$d</string>
+    <string name="fetching_data">Henter data</string>
+
+    <!-- Info -->
+    <string name="info_continue">Continue</string>
+
+    <!-- Route -->
+    <string name="route_list_header">List of routes</string>
+
+    <!-- Route Detail -->
+    <string name="route_detail_map">See on map</string>
+
+    <!-- Popup POI, Scan -->
+    <string name="popup_more">More...</string>
+    <string name="popup_ok">OK</string>
+
+    <!-- Scan fragment -->
+    <string name="scan_title">Scan image</string>
+
+    <!-- ar fragment -->
+    <string name="ar_view_title">AR View</string>
+
+    <!-- Quiz header -->
+    <string name="quiz_header">Quiz - test yourself</string>
+
+    <!-- Practical info -->
+    <string name="practical_info_header">Fact and information</string>
+
+    <!-- Messages -->
+    <string name="message_too_far_from_poi">Visit the area, to catch and experience the story.</string>
+    <string name="data_being_loaded">Loading data</string>
+
+    <!-- Geofence Error strings -->
+    <string name="no_gps_signal">No GPS signal</string>
+
+    <string name="preparing_assets">Loading…</string>
+    <string name="error">Error</string>
+    <string name="download_failed">Story Hunt Fyn failed while updating data. Try again!</string>
+    <string name="close">Close</string>
+    <string name="downloading_assets">Please hold on… Additional data needs to be downloaded.</string>
+
+    <!-- location messages -->
+    <string name="please_enable_location">Please enable location services on this device.</string>
+    <string name="not_now">Not now</string>
+    <string name="enable">Enable...</string>
+
+    <string name="error_unknown">General error. Please try again.</string>
+
+</resources>
+

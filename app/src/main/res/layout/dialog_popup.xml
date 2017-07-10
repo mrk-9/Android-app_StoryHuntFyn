@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="@dimen/dialog_popup_width"
+        android:layout_height="@dimen/dialog_popup_height"
+        android:layout_centerInParent="true">
+
+        <RelativeLayout
+            android:layout_width="@dimen/dialog_popup_width"
+            android:layout_height="@dimen/dialog_popup_frame_height"
+            android:paddingTop="30dp"
+            android:paddingBottom="50dp"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:background="@drawable/popup_frame">
+
+            <TextView
+                android:id="@+id/textTitle"
+                style="@style/Text.Popup.Title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:maxLines="2"
+                android:ellipsize="end"
+                android:gravity="center" />
+
+            <TextView
+                android:id="@+id/textMessage"
+                style="@style/Text.Regular"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ellipsize="end"
+                android:lines="5"
+                android:layout_below="@id/textTitle"
+                android:layout_marginTop="5dp" />
+
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/textBack"
+            android:layout_width="@dimen/dialog_popup_button_width"
+            android:layout_height="@dimen/dialog_popup_button_height"
+            android:gravity="center"
+            android:text="@string/settings_back"
+            android:background="@drawable/button_popup2"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginLeft="10dp"
+            style="@style/Button.Popup"
+            android:soundEffectsEnabled="false"/>
+
+
+        <TextView
+            android:id="@+id/textMore"
+            android:layout_width="@dimen/dialog_popup_button_width"
+            android:layout_height="@dimen/dialog_popup_button_height"
+            android:gravity="center"
+            android:text="@string/popup_more"
+            android:background="@drawable/button_popup1"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginRight="10dp"
+            style="@style/Button.Popup"
+            android:soundEffectsEnabled="false"/>
+    </RelativeLayout>
+</RelativeLayout>

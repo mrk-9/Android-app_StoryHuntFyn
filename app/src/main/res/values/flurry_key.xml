@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="flurry_project" translatable="false">Historiejagten Fyn</string>
+    <string name="flurry_api_key" translatable="false">MYVJDP3MHGMVG6FFM492</string>
+
+</resources>

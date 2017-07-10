@@ -1,0 +1,25 @@
+<resources>
+
+    <dimen name="tabbar_width">336px</dimen>
+    <dimen name="tabbar_height">105px</dimen>
+
+    <dimen name="side_tab_width2">100px</dimen>
+    <dimen name="side_tab_height2">143px</dimen>
+    <dimen name="side_tab_width3">100px</dimen>
+    <dimen name="side_tab_height3">203px</dimen>
+
+
+    <dimen name="bg_horizontal_margin">85px</dimen>
+    <dimen name="bg_vertical_margin">43px</dimen>
+
+    <dimen name="bg_left_margin">26dp</dimen>
+    <dimen name="bg_right_margin">46dp</dimen>
+    <dimen name="bg_top_margin">30dp</dimen>
+
+    <dimen name="bg_right_margin_route">52dp</dimen>
+
+    <dimen name="welcome_image_bottom_margin">-32dp</dimen>
+    <dimen name="welcome_image_top_margin">-10dp</dimen>
+    <dimen name="welcome_info_view_padding_right">4dp</dimen>
+
+</resources>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="220dp"
+        android:layout_height="268dp"
+        android:layout_centerInParent="true">
+
+        <RelativeLayout
+            android:layout_width="220dp"
+            android:layout_height="252dp"
+            android:paddingTop="30dp"
+            android:paddingBottom="50dp"
+            android:background="@drawable/popup_frame">
+
+            <TextView
+                android:id="@+id/textTitle"
+                style="@style/Text.Popup.Title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="10dp"
+                android:maxLines="2"
+                android:ellipsize="end"
+                android:gravity="center"/>
+
+            <TextView
+                android:id="@+id/textMessage"
+                style="@style/Text.Regular"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/textTitle"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="5dp"/>
+
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/textOk"
+            android:layout_width="102dp"
+            android:layout_height="60dp"
+            android:gravity="center"
+            android:text="@string/popup_ok"
+            android:background="@drawable/button_popup1"
+            android:layout_alignParentBottom="true"
+            android:layout_marginRight="10dp"
+            android:layout_centerHorizontal="true"
+            style="@style/Button.Popup"
+            android:soundEffectsEnabled="false"/>
+    </RelativeLayout>
+</RelativeLayout>

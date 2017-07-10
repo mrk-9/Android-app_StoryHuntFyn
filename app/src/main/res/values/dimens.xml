@@ -1,0 +1,46 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <dimen name="tabbar_width">704px</dimen>
+    <dimen name="tabbar_height">238px</dimen>
+
+    <dimen name="side_tab_width2">246px</dimen>
+    <dimen name="side_tab_height2">352px</dimen>
+    <dimen name="side_tab_width3">246px</dimen>
+    <dimen name="side_tab_height3">498px</dimen>
+
+    <dimen name="bg_horizontal_margin">122px</dimen>
+    <dimen name="bg_vertical_margin">60px</dimen>
+
+    <dimen name="map_label_text_size">16sp</dimen>
+    <dimen name="popup_title_size">30sp</dimen>
+    <dimen name="popup_text_size">20sp</dimen>
+    <dimen name="popup_button_text_size">26sp</dimen>
+
+    <dimen name="bg_left_margin">40dp</dimen>
+    <dimen name="bg_right_margin">80dp</dimen>
+    <dimen name="bg_top_margin">40dp</dimen>
+
+    <dimen name="dialog_popup_width">220dp</dimen>
+    <dimen name="dialog_popup_height">268dp</dimen>
+    <dimen name="dialog_popup_frame_height">252dp</dimen>
+    <dimen name="dialog_popup_button_width">102dp</dimen>
+    <dimen name="dialog_popup_button_height">60dp</dimen>
+
+    <dimen name="progress_bar_height">20dp</dimen>
+
+    <dimen name="map_settings_top_margin">100dp</dimen>
+    <dimen name="route_view_small_padding">4dp</dimen>
+    <dimen name="route_view_mid_padding">12dp</dimen>
+    <dimen name="location_top_margin">-10dp</dimen>
+
+    <dimen name="bg_right_margin_route">38dp</dimen>
+
+    <dimen name="welcome_image_bottom_margin">-20dp</dimen>
+    <dimen name="welcome_image_top_margin">0dp</dimen>
+    <dimen name="welcome_info_view_padding_right">8dp</dimen>
+
+
+</resources>

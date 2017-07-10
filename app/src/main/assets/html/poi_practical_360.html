@@ -1,0 +1,90 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+    <meta name="viewport" />
+    <style media="screen" type="text/css">
+
+        @font-face {
+        font-family: 'MarkerFelt';
+        src: url('file:///android_asset/fonts/markerfelt.ttf') format('truetype'); /* header text */
+        }
+
+        @font-face {
+        font-family: 'TidyHand';
+        src: url('file:///android_asset/fonts/TidyHand.ttf') format('truetype'); /* text picture frame */
+        }
+
+        body {
+        background-color:transparent;
+
+        }
+
+        h1 {
+        font-family:'MarkerFelt';
+        margin-top: 10px;
+        text-align:center;
+        font-size: 26px;
+        font-weight:normal;
+        }
+
+
+        #aiContainer{
+        position: relative;
+        left: 0; top: 0;
+        width: 100%;
+        height:251px; /* the heigh of image frame */
+
+        }
+
+        #image1{
+        position: absolute;
+        behavior:url(-ms-transform.htc);
+        -webkit-transform:rotate(9deg);
+        left:75px;
+        top:30px;
+        z-index: 1;
+        width:171px;
+        }
+
+        #frame1{
+        position: absolute;
+        left:40px;
+        top:0px;
+        z-index: 3;
+        width:240px;
+        height:251px
+        }
+
+        #textOnFrame1
+        {
+        position:absolute;
+        font-family: 'TidyHand';
+        behavior:url(-ms-transform.htc);
+        -webkit-transform:rotate(9deg);
+        top: 180px;
+        left: 62px;
+        width: 171px;
+        z-index: 5;
+        font-size: 13px;
+        }
+
+
+
+
+        #anotherTxt {
+        position: relative;
+        left: 0; top: 0px;
+        }
+
+
+    </style>
+
+
+</head>
+%bodystart%
+<h1>%title%</h1>
+<div style="margin-top:50px;">
+    %body%
+</div>
+</body>
+</html>
